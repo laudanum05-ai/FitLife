@@ -23,8 +23,8 @@ water_needed = user_weight * WATER_NORM
 
 
 # 4. Вывод красивого результата
-print(f"Привет, {user_name.title()}!")
-print(f"Отчет для пользователя: {user_name.title()}, ({user_age} г.)")
+print(f"Привет, {user_name}!")
+print(f"Отчет для пользователя: {user_name}, ({user_age} г.)")
 print(f"Ваш Индекс Массы Тела (ИМТ): {bmi}")
 print(f"Ваша рекомендуемая норма воды: {water_needed:.1f} л в день")
 print("Расчет окончен. Будьте здоровы!")
